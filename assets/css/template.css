@@ -1,0 +1,470 @@
+*{
+	font-family: arial;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	height: 120px;
+	display: flex;
+	justify-content: center;
+}
+
+.container{
+	width: 990px;
+	display: flex;
+	justify-content: space-between;
+}
+.logo{
+	display: flex;
+	align-items: center;
+}
+
+.menu{
+	display: flex;
+	align-items: center;
+}
+.menuMobile{
+	width: 50px;
+	height: 50px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: none;
+}
+.menuMobile div{
+	width: 50px;
+	height: 5px;
+	background-color: #000;
+}
+nav ul{
+	display: flex;
+}
+nav ul, nav li{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+nav li{
+	text-transform: uppercase;
+	padding: 15px;
+}
+nav a{
+	text-decoration: none;
+	color: #727272;
+}
+nav .ativo, nav li:hover{
+	background-color: #39aae1;
+	color: #FFF;
+}
+
+#banner{
+	min-height: 500px;
+	background-image: url("../img/img1.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+}
+.column{
+	flex-direction: column;
+}
+.banner_headline{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.banner_headline h1,
+.banner_headline h2{
+	color: #FFF;
+	padding: 0px;
+	margin: 0px;
+	max-width: 300px;
+	text-shadow: 0px 2px 0px #555;
+}
+.banner_headline h1{
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+.banner_headline h2{
+	font-size: 15px;
+}
+.banner_options{
+	height: 210px;
+	color: #FFF;
+	display: flex;
+}
+.banner_options .banner1,
+.banner_options .banner2,
+.banner_options .banner3{
+	flex: 1;
+	padding: 20px;
+}
+.banner_options .banner1{
+	background-color: #39AAE1;
+}
+.banner_options .banner2{
+	background-color: #0079C7;
+}
+.banner_options .banner3{
+	background-color: #2B4C99;
+}
+.banner_options .titulo{
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.banner_options .descricao{
+	padding-bottom: 20px;
+}
+.banner_options a{
+	text-decoration: none;
+	color: #FFF;
+	border: 1px solid #FFF;
+	padding: 4px;
+}
+.banner_options .horario .horario1,
+.banner_options .horario .horario2,
+.banner_options .horario .horario3{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 1px solid #999;
+}
+.banner_options .horario .horario1{
+	padding-top: 0px;
+}
+
+#geral{
+	display: flex;
+	justify-content: center;
+}
+#geral section{
+	flex: 2;
+}
+#geral aside{
+	flex: 1;
+}
+.widget_titulo{
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+.widget_titulo .titulo{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.widget_titulo .barra{
+	width: 50px;
+	height: 2px;
+	background-color: #36A9E1;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.ultimas_noticias{
+	flex: 1;
+	min-width: 300px;
+	margin-right: 20px;
+}
+article .data{
+	display: flex;
+}
+article .data .data1,
+article .data .data2{
+	color: #FFF;
+	background-color: #2B4C99;
+	padding: 10px;
+}
+article .data .data2{
+	background-color: #8FAAE1;
+	margin-left: 3px;
+}
+.ultimas_noticias img{
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+}
+article .descricao .titulo{
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+article .descricao .texto{
+	color: #999;
+	margin-bottom: 30px;
+	line-height: 20px;
+}
+.departamentos{
+	display: flex;
+	flex-wrap: wrap;
+}
+.departamento{
+	width: 155px;
+	height: 155px;
+	background-color: #39AAE1;
+	margin-bottom: 30px;
+}
+.d1, .d3, .d5{
+	margin-right: 20px;
+}
+.marcar_consulta{
+	border-bottom: 1px solid #A9A9A9;
+}
+.marcar_consulta .descricao{
+	margin-bottom: 20px;
+}
+.marcar_consulta .contatos{
+	display: flex;
+	align-items: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top: 1px solid #A9A9A9;
+}
+.marcar_consulta img{
+	margin-right: 10px;
+}
+
+footer{
+	background-color: #1E1E1E;
+	display: flex;
+	justify-content: center;
+}
+.footer_area{
+	display: flex;
+	color: #FFF;
+}
+.footer_area2{
+	min-height: 333px;
+	border-bottom: 1px solid #666;
+}
+.footer{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	color: #FFF;
+}
+.footer1{
+	background-color: #39AAE1;
+	align-items: center;
+}
+.footer2{
+	background-color: #0079C7;
+	align-items: center;
+} 
+.footer3{
+	background-color: #2B4C99;
+	align-items: center;
+}
+footer .area1{
+	font-size: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+footer .area2{
+	font-size: 15px;
+	padding-bottom: 25px;
+}
+
+.footer_area2 .footer{
+	margin-right: 40px;
+}
+.footer_area2 .footer_titulo{
+	font-size: 23px;
+}
+.footer1_area2 .descricao{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #666;
+	font-size: 12px;
+}
+.footer_area2 .contatos{
+	display: flex;
+	justify-content: space-between;
+	color: #666;
+	font-size: 12px;
+	margin-bottom: 35px;
+}
+.footer_area2 .contato{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.footer_area3{
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	color: #666;
+}
+.footer2_area2 a{
+	text-decoration: none;
+	font-weight: bold;
+}
+.footer2_area2 .descricao{
+	display: flex;
+	padding-bottom: 10px;
+	line-height: 20px;
+	color: #666;
+	font-size: 12px;
+}
+.footer2_area2 .descricao1{
+	padding-top: 30px;
+}
+.footer2_area2 .descricao .seta{
+	margin-right: 10px;
+}
+
+@media only screen and (min-width: 650px) and (max-width: 990px){
+	.container{
+		width: 750px;
+	}
+	.banner_headline{
+		height: 300px;
+		padding-left: 10px;
+	}
+	.banner_headline h1{
+		font-size: 40px;		
+	}
+	.banner_options{
+		height: auto;
+		flex-direction: column;
+	}
+	.banner_options .banner1,
+	.banner_options .banner2{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.banner_options .banner3{
+		display: flex;
+	}
+	.banner_options .banner3 .titulo,
+	.banner_options .banner3 .horario{
+		flex: 1;
+	}
+	section .widget{
+		padding-left: 10px;
+	}
+	aside{
+		padding-left: 10px;
+	}
+	#geral .container{
+		flex-direction: column;
+	}
+	.d2, .d4, .d6{
+		margin-right: 20px;
+	}
+	.departamento{
+		min-width: 200px;
+		flex: 1;
+	}
+	.marcar_consulta{
+		margin-bottom: 40px;
+		display: flex;
+		border: none;
+	}
+	.marcar_consulta .descricao{
+		padding-right: 20px;
+	}
+	.marcar_consulta .descricao,
+	.marcar_consulta .area_contatos{
+		flex: 1;
+	}
+	.marcar_consulta .contatos{
+		border: none;
+		padding-top: 0px;
+	}
+	footer .area2{
+		display: flex;
+		align-items: center;
+		padding-left: 5px;
+    	padding-right: 5px;
+	}
+}
+
+@media only screen and (max-width: 650px)
+{
+	.container{
+		width: 500px;
+	}	
+	header{
+		height: auto;
+	}
+	.menuMobile{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	nav ul{
+		flex-direction: column;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		background-color: #FFF;
+		display: none;
+	}
+	.banner_headline{
+		height: 300px;
+		padding-left: 10px;
+	}
+	.banner_headline h1{
+		font-size: 40px;		
+	}
+	.banner_options{
+		height: auto;
+		flex-direction: column;
+	}
+	.banner_options .banner1,
+	.banner_options .banner2{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.banner_options .banner3{
+		display: flex;
+	}
+	.banner_options .banner3 .titulo,
+	.banner_options .banner3 .horario{
+		flex: 1;
+	}
+	section .widget{
+		padding-left: 10px;
+	}
+	aside{
+		padding-left: 10px;
+	}
+	#geral .container{
+		flex-direction: column;
+	}
+	.d2, .d4, .d6{
+		margin-right: 20px;
+	}
+	.departamento{
+		min-width: 200px;
+		flex: 1;
+	}
+	.marcar_consulta{
+		margin-bottom: 40px;
+		display: flex;
+		border: none;
+	}
+	.marcar_consulta .descricao{
+		padding-right: 20px;
+	}
+	.marcar_consulta .descricao,
+	.marcar_consulta .area_contatos{
+		flex: 1;
+	}
+	.marcar_consulta .contatos{
+		border: none;
+		padding-top: 0px;
+	}
+	footer .area2{
+		display: flex;
+		align-items: center;
+		padding-left: 5px;
+    	padding-right: 5px;
+	}
+}

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+	<title>Site FlexBox</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/template.css">
+	<script type="text/javascript">
+		window.onload = function(){
+			document.querySelector(".menuMobile").addEventListener("click", function(){
+				if(document.querySelector(".menu nav ul").style.display == 'flex'){
+					document.querySelector(".menu nav ul").style.display = 'none';
+				} else {
+					document.querySelector(".menu nav ul").style.display = 'flex';
+				}
+			})
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<a href="./">
+					<img src="assets/img/logo.png">
+				</a>
+			</div>
+			<div class="menu">
+				<nav>
+					<div class="menuMobile">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<ul class="toggleMenu">
+						<a href="./"><li class="ativo">home</li></a>
+						<a href="./"><li>home</li></a>
+						<a href="./"><li>home</li></a>
+						<a href="./"><li>home</li></a>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section id="banner">
+		<div class="container column">
+			<div class="banner_headline">
+				<h1>
+					Top noth experience
+				</h1>
+				<h2>
+					Medicenter is a responsive template perfect for all screen sizes
+				</h2>
+			</div>
+			<div class="banner_options">
+				<div class="banner1">
+					<div class="titulo">Emergency Case</div>
+					<div class="descricao">Algum texto qualquer</div>
+					<a href="./">Read more</a>
+				</div>
+				<div class="banner2">
+					<div class="titulo">Doctors Timetable</div>
+					<div class="descricao">Outro texto qualquer</div>
+					<a href="./">Read more</a>
+				</div>
+				<div class="banner3">
+					<div class="titulo">Opening Hours</div>
+					<div class="horario">
+						<div class="horario1">
+							<div class="dia">Monday - Friday</div>
+							<div class="hora">0:00 - 17:00</div>
+						</div>
+						<div class="horario2">
+							<div class="dia">Saturday</div>
+							<div class="hora">9:30 - 17:30</div>
+						</div>
+						<div class="horario3">
+							<div class="dia">Sunday</div>
+							<div class="hora">9:30 - 15:00</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="geral">
+		<div class="container">
+			<section>
+				<div class="widget">
+					<div class="widget_titulo">
+						<div class="titulo">Lastest News</div>
+						<div class="barra"></div>
+					</div>
+					<div class="widget_body flex">
+						<article class="ultimas_noticias">
+							<div class="data">
+								<div class="data1">12 DOC 12
+								</div>
+								<div class="data2">2</div>
+							</div>
+							<div class="imagem">
+								<img src="assets/img/dr.jpg">
+							</div>
+							<div class="descricao">
+								<div class="titulo">Lorem ipsum dolor sit amat velum</div>
+								<div class="texto">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									lorem
+								</div>
+							</div>
+						</article>
+						<article class="ultimas_noticias">
+							<div class="data">
+								<div class="data1">12 DOC 12
+								</div>
+								<div class="data2">2</div>
+							</div>
+							<div class="imagem">
+								<img src="assets/img/dr.jpg">
+							</div>
+							<div class="descricao">
+								<div class="titulo">Lorem ipsum dolor sit amat velum</div>
+								<div class="texto">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</div>
+							</div>
+						</article>
+						<article class="ultimas_noticias">
+							<div class="data">
+								<div class="data1">12 DOC 12
+								</div>
+								<div class="data2">2</div>
+							</div>
+							<div class="imagem">
+								<img src="assets/img/dr.jpg">
+							</div>
+							<div class="descricao">
+								<div class="titulo">Lorem ipsum dolor sit amat velum</div>
+								<div class="texto">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</div>
+							</div>
+						</article>
+						<article class="ultimas_noticias">
+							<div class="data">
+								<div class="data1">12 DOC 12
+								</div>
+								<div class="data2">2</div>
+							</div>
+							<div class="imagem">
+								<img src="assets/img/dr.jpg">
+							</div>
+							<div class="descricao">
+								<div class="titulo">Lorem ipsum dolor sit amat velum</div>
+								<div class="texto">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<aside>
+				<div class="widget departments">
+					<div class="widget_titulo">
+						<div class="titulo">Departments</div>
+						<div class="barra"></div>
+					</div>
+					<div class="widget_body">
+						<article class="departamentos">
+							<div class="departamento d1">1</div>
+							<div class="departamento d2">2</div>
+							<div class="departamento d3">3</div>
+							<div class="departamento d4">4</div>
+							<div class="departamento d5">5</div>
+							<div class="departamento d6">6</div>
+						</article>
+					</div>
+				</div>
+				<div class="widget">
+					<div class="widget_titulo">
+						<div class="titulo">Make An Appointment</div>
+						<div class="barra"></div>
+					</div>
+					<div class="widget_body">
+						<article class="marcar_consulta">
+							<div class="descricao">
+								Aqui possui um texto qualquer. Será uma descrição sobre marcar consulta.
+							</div>
+							<div class="area_contatos">
+								<div class="contatos">
+									<img src="assets/img/telefone.png" width="38" height="38">
+									<span>by phone: <b>1-800-643-4300</b></span>
+								</div>
+								<div class="contatos">
+									<img src="assets/img/mensagem.png" width="38" height="38">
+									<span>by e-mail: <a href="./">medicenter@mail.com</a></span>
+								</div>
+								<div class="contatos">
+									<img src="assets/img/prancha.png" width="38" height="38">
+									<span>or <a href="./">file in the form</a> on our contact page</span>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</aside>
+		</div>
+	</section>
+	<footer>
+		<div class="container column">
+			<div class="footer_area footer_area1">
+				<div class="footer footer1">
+					<div class="area area1">
+						Heath Insurance
+					</div>
+					<div class="area area2">
+						<span>Here in medicenter we have individual</span>
+						<img src="assets/img/seta.png" width="10" height="10">
+					</div>
+				</div>
+				<div class="footer footer2">			
+					<div class="area1">
+						Medical Records
+					</div>
+					<div class="area2">
+						<span>Here in medicenter we have individual</span>
+						<img src="assets/img/seta.png" width="10" height="10">
+					</div>
+				</div>
+				<div class="footer footer3">			
+					<div class="area1">
+						Online Bill Pay
+					</div>
+					<div class="area2">
+						<span>Here in medicenter we have individual</span>
+						<img src="assets/img/seta.png" width="10" height="10">
+					</div>
+				</div>
+			</div>
+			<div class="footer_area footer_area2">
+				<div class="footer footer1_area2">
+					<div class="widget_titulo footer_titulo">
+						<div class="titulo">Medicenter Clinic</div>
+						<div class="barra"></div>
+					</div>
+					<div class="descricao">
+						<span>
+							Mauris adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.
+						</span>
+					</div>
+					<div class="contatos">	
+						<div class="contato">
+							<span>Medicenter Clinic</span>
+							<span>33 Fariane Street</span>
+							<span>Kellor East VIC</span>
+							<span>3033, Australia</span>
+						</div>
+						<div class="contato">
+							<span>+123 655 655</span>
+							<span>+123 755 755</span>
+							<span>medicenter@mail.com</span>
+						</div>
+					</div>
+					<div class="social">
+						<img src="assets/img/facebook.png" width="30" height="30">
+						<img src="assets/img/twitter.png" width="30" height="30">
+						<img src="assets/img/calendario.png" width="30" height="30">
+						<img src="assets/img/carta.png" width="30" height="30">
+					</div>
+				</div>
+				<div class="footer footer2_area2">
+					<div class="widget_titulo footer_titulo">
+						<div class="titulo">Latest Posts</div>
+						<div class="barra"></div>
+					</div>
+					<div class="descricao descricao1">
+						<div class="seta">						
+							<img src="assets/img/seta2.png" width="15" height="15">
+						</div>
+						<div>
+							<span>
+								Mauris adipiscing mauris fringila turpis interdum pulvirar nisi malesuada.<br>
+								<a href="./">6 years ago</a>
+							</span>
+						</div>
+					</div>
+					<div class="descricao descricao2">
+						<div class="seta">						
+							<img src="assets/img/seta2.png" width="15" height="15">
+						</div>
+						<div>
+							<span>
+								Lorem ipsum dolor sit amat volum.<br>
+								<a href="./">6 years ago</a>
+							</span>
+						</div>
+					</div>
+					<div class="descricao descricao3">
+						<div class="seta">						
+							<img src="assets/img/seta2.png" width="15" height="15">
+						</div>
+						<div>
+							<span>
+								Mauris adipiscing mauris fringila turpis interdum pulvirar nisi malesuada.<br>
+								<a href="./">6 years ago</a>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="footer footer2_area2">
+					<div class="widget_titulo footer_titulo">
+						<div class="titulo">Latest Tweets</div>
+						<div class="barra"></div>
+					</div>
+					<div class="descricao descricao1">
+						<div class="seta">						
+							<img src="assets/img/seta2.png" width="15" height="15">
+						</div>
+						<div>
+							<span>
+								Mauris adipiscing mauris fringila turpis interdum pulvirar nisi malesuada.<br>
+								<a href="./">6 years ago</a>
+							</span>
+						</div>
+					</div>
+					<div class="descricao descricao2">
+						<div class="seta">						
+							<img src="assets/img/seta2.png" width="15" height="15">
+						</div>
+						<div>
+							<span>
+								Lorem ipsum dolor sit amat volum.<br>
+								<a href="./">6 years ago</a>
+							</span>
+						</div>
+					</div>
+					<div class="descricao descricao3">
+						<div class="seta">						
+							<img src="assets/img/seta2.png" width="15" height="15">
+						</div>
+						<div>
+							<span>
+								Mauris adipiscing mauris fringila turpis interdum pulvirar nisi malesuada.<br>
+								<a href="./">6 years ago</a>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer_area footer_area3">Copyrigth - Todos os direitos reservados</div>
+		</div>
+	</footer>
+</body>
+</html>
